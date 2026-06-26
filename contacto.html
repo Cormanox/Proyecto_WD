@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Occivet - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <section class="header">
+        <div class="header__logo"><img src="img/logo.png" alt="Logo"></div>
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                    <a class="nav__link" href="index.html">Inicio</a>
+                    <a class="nav__link" href="nosotros.html">Nosotros</a>
+                    <a class="nav__link" href="servicios.html">Servicios</a>
+                    <a class="nav__link" href="Productos.html">Productos</a>
+                    <a class="nav__link" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+</header>
+<main>
+    <section class="contacto">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Estamos aqui para ayudarte. Comunicate con nosotros por cualquiera de los siguientes medios o visitanos en nuestra clinica.</p>
+
+            <div class="contacto__info">
+                <div class="contacto__datos">
+                    <h2>Informacion de Contacto</h2>
+                    <p><strong>Direccion:</strong> Av. Principal #123, Col. Centro, Ciudad</p>
+                    <p><strong>Telefono:</strong> (123) 456-7890</p>
+                    <p><strong>Correo:</strong> contacto@occivet.com</p>
+                    <p><strong>Horario:</strong> Lunes a Viernes 9:00 - 19:00 | Sabados 9:00 - 14:00</p>
+                </div>
+
+                <div class="contacto__formulario">
+                    <h2>Enviar un mensaje</h2>
+                    <form action="#" method="POST">
+                        <div class="form__grupo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form__grupo">
+                            <label for="correo">Correo electronico</label>
+                            <input type="email" id="correo" name="correo" required>
+                        </div>
+                        <div class="form__grupo">
+                            <label for="telefono">Telefono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        <div class="form__grupo">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="form__grupo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<body>
+</body>
+</html>
