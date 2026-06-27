@@ -42,6 +42,16 @@ header {
     overflow: hidden;
 }
 
+nav a {
+    color: #4ba7c4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #3a86a3;
+}
 
 .video-container video {
     position: absolute;
@@ -79,15 +89,19 @@ button a {
     font-size: 18px;
     font-weight: bold;
 }
+
 button:hover {
     background-color: #3a86a3;
 }
-nav a {
-    color: #4ba7c4;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    font-weight: bold;
+/* Estilos para la sección de contacto */
+.contacto {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #333;
+    justify-content: center;
 }
 nav a:hover {
     color: #3a86a3;
