@@ -27,8 +27,103 @@ header {
     text-decoration: none;
     width: 70px;
     text-align: center;
-    
 }
+/* Estilos para la sección de servicios */
+.servicios {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+.servicios h1 {
+    color: #217189;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.servicios__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.servicios__item {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.servicios__item h2 {
+    color: #217189;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de productos */
+.productos__categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.productos__categoria {
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+}
+
+.productos__categoria img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.productos__categoria h2 {
+    color: #217189;
+}
+
+/* Estilos para el formulario de contacto */
+.form__grupo {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form__grupo label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form__grupo input, .form__grupo textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.footer__nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer__nav a:hover {
+    color: #4ba7c4;
+}
+
 
 .header__logo img {
     width: 100px;
@@ -103,10 +198,45 @@ button:hover {
     border: 2px solid #333;
     justify-content: center;
 }
-nav a:hover {
-    color: #3a86a3;
+
+.contacto__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.contacto__datos, .contacto__formulario {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+/* Estilos para el Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*Estilos para imagenes de productos*/
+.products {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.products img {
+    margin-right: 70px;
+    margin-left: 70px;
+    flex: 1;
+    width: 15%;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 .titulo_nosotros {
     text-align: center;
     color: #217189;
@@ -121,4 +251,30 @@ nav a:hover {
     width: 650px;
     height: 500px;
     margin-left: 30%;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.productos h2,h1 {
+    text-align: center;
+    color: #217189;
+}
+.productos p {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.productos img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
